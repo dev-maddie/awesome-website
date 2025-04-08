@@ -41,8 +41,8 @@ h1 {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    color: #F9FAF8;
     padding-top: 5px;
+    color: #F9FAF8;
 }
 
 .header-logo{
@@ -70,6 +70,7 @@ a {
 
 .button-top{
     background-color: #3882F6;
+    border-color: #3882F6;
     color: white;
     padding: 5px 20px 5px 20px;
     border-radius: 10px;
@@ -81,8 +82,8 @@ a {
 }
 
 .image-placeholder{
-    background-color: lightgray;
-    color: grey;
+    background-color: rgb(124, 124, 124);
+    color: lightgrey;
     width: 50%;
     height: full;
     display: flex;
@@ -91,7 +92,13 @@ a {
  
 }
 
-/* css for Lower Header Content Section */
+/* CSS for some random information Content Section */
+
+.some-info{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
 
 .white-box {
     flex-direction: column;
@@ -100,11 +107,109 @@ a {
 }
 
 .img-container {
-    height: 100px;
-    width: 100px;
-    border: 3px solid #3882f6;
+    height: 200px;
+    width: auto;
+    border: 6px solid #3882f6;
     border-radius: 10px;
     
+}
+
+.four-boxes{
+    display: flex;
+    gap: 40px;
+}
+
+.cards{
+    width: 200px;
+    text-align: center;
+}
+
+/* CSS for Quote section */
+.grey-box-color{
+    background-color: #E5E7EB;
+}
+
+.grey-box{
+    display: flex;
+    flex-direction: column;
+    padding: 75px;
+    padding-top: 10px;    
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    color: rgb(87, 87, 87);
+}
+
+
+.thor{
+    display: flex;
+    justify-content: flex-end;
+    color: #1F2937;;
+    font-weight: bold;
+    font-size: 20px;
+    max-width: 900px;
+}
+
+/* CSS for call to action section */
+
+.action-box{
+    background-color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.blue-box{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;    
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    border-radius: 10px;
+}
+
+.action{
+    max-width: 70%;
+}
+.action p {
+    font-size: 18px;
+}
+
+.bottom-button{
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    border-color: white;
+    border: 3px solid white;
+    color: white;
+    padding: 5px 20px 5px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-right: 80px;
+}
+
+/* CSS for Copyright footer */
+
+.footer-color{
+    background-color: #1F2937;
+    padding: 20px;
+}
+
+.footer{
+    color: white;
+    display: flex;
+    justify-content: center;
 }
 
 
